@@ -1,0 +1,187 @@
+@font-face {
+    font-family: "Din Next LT Light";
+    src: url("./DINNextLTPro-Light.otf");
+}
+
+@font-face {
+    font-family: "Din Next LT Regular";
+    src: url("./DINNextLTPro-Regular.otf");
+}
+
+@font-face {
+    font-family: "Din Next LT Medium";
+    src: url("./DINNextLTPro-Medium.otf");
+}
+
+@font-face {
+    font-family: "Din Next LT Bold";
+    src: url("./DINNextLTPro-Bold.otf");
+}
+
+.cover {
+    position: absolute;
+    background: url("./motif.jpg") repeat center top;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 260px;
+    z-index: -1000;
+    opacity: 0.25;
+}
+
+#content {
+    color: #383838;
+    font-family: "Din Next LT Regular", "Open Sans", sans-serif;
+    max-width: 1050px;
+}
+
+header {
+    letter-spacing: 2px;
+    display: flex;
+    padding-bottom: 8rem;
+    padding-top: 4rem;
+}
+
+.header-right {
+    text-align: right;
+}
+
+.fullname {
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 38px;
+}
+
+.jobtitle {
+    font-size: 30px;
+    font-family: "Din Next LT light", "Open Sans", sans-serif;
+    line-height: 38px;
+}
+
+.contact {
+    font-size: 16px;
+}
+
+h1 {
+    color: rgb(95, 132, 141);
+    font-family: "Din Next LT Medium", "Open Sans", sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: "Din Next LT Regular", "Open Sans", sans-serif;
+    font-size: 24px;
+}
+
+.section {
+    margin-bottom: 3rem;
+}
+
+.section-title {
+    margin-bottom: 1.5rem;
+}
+
+.headline {
+    margin-bottom: 1rem;
+}
+
+a {
+    border-bottom: dotted 1px;
+    border-color: #bbb;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    border-color: rgb(66, 134, 244);
+    color: rgb(66, 134, 244);
+}
+
+h3 {
+    font-family: "Din Next LT Light", "Open Sans", sans-serif;
+    font-size: 18px;
+}
+
+.bullet-separator:after {
+    content: " · ";
+}
+
+.description {
+    font-family: "Din Next LT Light", "Open Sans", sans-serif;  
+    padding-left: 1rem;
+}
+
+.tech {
+    font-family: "Din Next LT Regular", "Open Sans", sans-serif; 
+    font-style: italic;
+    font-size: 16px;
+    color: rgb(95, 132, 141);
+    margin-top: 0.5rem;
+}
+
+ul {
+    padding-left: 1rem;
+    margin-bottom: 0rem;
+}
+
+li {
+    list-style:none;
+}
+
+li:before {
+    content: "· ";
+    width:20px;
+    height:20px;
+    font-weight: bold;
+    padding-right: 3px;
+}
+
+p {
+    margin-bottom: 0rem;
+}
+
+.title {
+    display: flex;
+}
+
+.job-time {
+    font-family: "Din Next LT light", "Open Sans", sans-serif;
+    font-size: 22px;
+}
+
+.separator {
+    margin-top: 14px;
+    border-top: dotted 2px #bbb;
+    flex: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .cover {
+        height: 390px;
+    }
+
+    #content {
+        margin-top: 0rem;
+        padding: 2rem !important;
+    }
+
+    header {
+        margin-bottom: 2rem;
+        padding-bottom: 2rem;
+    }
+    
+    .header-left {
+        margin-bottom: 1rem;
+    }
+
+    .header-right {
+        text-align: left;
+    }
+
+    .description {
+        padding-left: 0rem;
+    }
+  }

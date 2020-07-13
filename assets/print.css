@@ -1,0 +1,27 @@
+header {
+    display: none;
+    padding-bottom: 2rem;
+    padding-top: 0rem;
+}
+
+.section {
+    margin-bottom: 1.5rem;
+}
+
+.section--last {
+    margin-bottom: 0rem;
+}
+
+.section-title {
+    margin-bottom: .75rem;
+    font-size: 26px;
+}
+
+.headline {
+    margin-bottom: 0.5rem;
+}
+
+a {
+    border-bottom: 0px;
+    text-decoration: none;
+}
